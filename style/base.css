@@ -8,6 +8,8 @@ body{
   margin-right: 5%;
   margin-bottom: 5%;
   background-color: whitesmoke;
+  max-width: 960px;
+  min-width:480px;
   
 }
 

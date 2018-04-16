@@ -1,4 +1,4 @@
-/* ////////////MOBILE/////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////MOBILE/////////////////////// */
 @media screen and ( max-width: 768px ) {
 
   img {
@@ -57,13 +57,10 @@
     width:100%;
   }
 
-
-
 }
 
-
 /* end mobile start FS */
-/* ////////////////FULL/SCREEN/////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////FULL/SCREEN///////////////////////// */
 @media screen and ( min-width: 769px ) {
 
   img {
@@ -98,7 +95,7 @@
     float:left;
   }
 
-/* ///////////4GRID/////////// */
+/* ///////////SNAP/TO/4WIDE/////////// */
   #div5{
     width:20%;
     height:30vh;
@@ -126,7 +123,7 @@
     display:block;
     float:left;
   }
-/* /////////4GRID///////// */
+/* /////////END/4WIDE///////// */
 
   #div9{
     width:80%;
@@ -136,39 +133,39 @@
   }
 
   #img1a{
-    content:url("http://via.placeholder.com/960x100")
+    content:url("http://via.placeholder.com/960x100");
   }
 
   #img2a{
-    content:url("http://via.placeholder.com/200x600")
+    content:url("http://via.placeholder.com/200x600");
   }
 
   #img3a{
-    content:url("http://via.placeholder.com/380x200")
+    content:url("http://via.placeholder.com/380x200");
   }
 
   #img4a{
-    content:url("http://via.placeholder.com/380x200")
+    content:url("http://via.placeholder.com/380x200");
   }
 
   #img5a{
-    content:url("http://via.placeholder.com/190x250")
+    content:url("http://via.placeholder.com/190x250");
   }
 
   #img6a{
-    content:url("http://via.placeholder.com/190x250")
+    content:url("http://via.placeholder.com/190x250");
   }
 
   #img7a{
-    content:url("http://via.placeholder.com/190x250")
+    content:url("http://via.placeholder.com/190x250");
   }
 
   #img8a{
-    content:url("http://via.placeholder.com/190x250")
+    content:url("http://via.placeholder.com/190x250");
   }
 
   #img9a{
-    content:url("http://via.placeholder.com/760x150")
+    content:url("http://via.placeholder.com/760x150");
   }
 
 }
