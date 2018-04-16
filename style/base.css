@@ -1,0 +1,11 @@
+/* Base styles include setting heading sizes, default link styles, default font styles, and body backgrounds. */
+*{
+  font-family: 'Lato', sans-serif;
+  /* -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+   box-sizing: border-box;  */
+}
+
+section{
+  background-color: whitesmoke;
+}

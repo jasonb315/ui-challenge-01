@@ -1,0 +1,157 @@
+/* start mobile */
+/* //////////////////////////////////////////////////// */
+
+/* the width of the mobile view today is min 480 to max 768 
+the desktop is min width 768- 960 */
+
+/* <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> */
+
+body{
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: rgb(119, 97, 97);
+  
+}
+
+div {
+  background-color: gray;
+  border-color:black;
+  border-width:1px;
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+
+
+/* ////////////MOBILE/////////////////////////////////////////////////////////////////////////////////////////////////// */
+@media screen and ( max-width: 768px ) {
+
+  #div1{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div2{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div3{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div4{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div5{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div6{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div7{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div8{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div9{
+    min-height:30vh;
+    width:100%;
+  }
+
+
+
+}
+
+
+/* end mobile start FS */
+/* ////////////////FULL/SCREEN/////////////////////////////////////////////////////////////////////////////////// */
+@media screen and ( min-width: 769px ) {
+
+  #div1{
+    width:100%;
+    height:10vh;
+  }
+
+  #div2{
+    width:20%;
+    height:80vh;
+    display:block;
+    float:left;
+  }
+
+  #div3{
+    width:40%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div4{
+    width:40%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+/* ///////////4/////////// */
+  #div5{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div6{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div7{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div8{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+/* /////////4///////// */
+
+  #div9{
+    width:80%;
+    height:20vh;
+    display:block;
+    float:left;
+  }
+
+}
+
