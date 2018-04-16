@@ -1,36 +1,12 @@
-/* start mobile */
-/* //////////////////////////////////////////////////// */
-
-/* the width of the mobile view today is min 480 to max 768 
-the desktop is min width 768- 960 */
-
-/* <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a> */
-
-body{
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%;
-  margin-bottom: 5%;
-  background-color: rgb(119, 97, 97);
-  
-}
-
-div {
-  background-color: gray;
-  border-color:black;
-  border-width:1px;
-  border-style: solid;
-  box-sizing: border-box;
-}
-
-
-
 /* ////////////MOBILE/////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media screen and ( max-width: 768px ) {
 
+  img {
+    width:100%;
+  }
+
   #div1{
     width:100%;
-    min-height:5vh;
   }
 
   #div2{
@@ -90,33 +66,39 @@ div {
 /* ////////////////FULL/SCREEN/////////////////////////////////////////////////////////////////////////////////// */
 @media screen and ( min-width: 769px ) {
 
+  img {
+    min-height:100%;
+    max-height:100%;
+    max-width:100%;
+    min-width:100%;
+  }
+
   #div1{
     width:100%;
-    height:10vh;
   }
 
   #div2{
     width:20%;
-    height:80vh;
+    height:70vh;
     display:block;
     float:left;
   }
 
   #div3{
     width:40%;
-    height:30vh;
+    height:25vh;
     display:block;
     float:left;
   }
 
   #div4{
     width:40%;
-    height:30vh;
+    height:25vh;
     display:block;
     float:left;
   }
 
-/* ///////////4/////////// */
+/* ///////////4GRID/////////// */
   #div5{
     width:20%;
     height:30vh;
@@ -144,13 +126,49 @@ div {
     display:block;
     float:left;
   }
-/* /////////4///////// */
+/* /////////4GRID///////// */
 
   #div9{
     width:80%;
-    height:20vh;
+    height:15vh;
     display:block;
     float:left;
+  }
+
+  #img1a{
+    content:url("http://via.placeholder.com/960x100")
+  }
+
+  #img2a{
+    content:url("http://via.placeholder.com/200x600")
+  }
+
+  #img3a{
+    content:url("http://via.placeholder.com/380x200")
+  }
+
+  #img4a{
+    content:url("http://via.placeholder.com/380x200")
+  }
+
+  #img5a{
+    content:url("http://via.placeholder.com/190x250")
+  }
+
+  #img6a{
+    content:url("http://via.placeholder.com/190x250")
+  }
+
+  #img7a{
+    content:url("http://via.placeholder.com/190x250")
+  }
+
+  #img8a{
+    content:url("http://via.placeholder.com/190x250")
+  }
+
+  #img9a{
+    content:url("http://via.placeholder.com/760x150")
   }
 
 }
