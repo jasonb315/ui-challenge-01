@@ -1,0 +1,172 @@
+/* ////////////MOBILE/////////////////////// */
+@media screen and ( max-width: 768px ) {
+
+  img {
+    width:100%;
+  }
+
+  #div1{
+    width:100%;
+  }
+
+  #div2{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div3{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div4{
+    width:100%;
+    min-height:5vh;
+  }
+
+  #div5{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div6{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div7{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div8{
+    min-height:10vh;
+    width:50%;
+    display:block;
+    float:left;
+  }
+
+  #div9{
+    min-height:30vh;
+    width:100%;
+  }
+
+}
+
+/* end mobile start FS */
+/* ////////////////FULL/SCREEN///////////////////////// */
+@media screen and ( min-width: 769px ) {
+
+  img {
+    min-height:100%;
+    max-height:100%;
+    max-width:100%;
+    min-width:100%;
+  }
+
+  #div1{
+    width:100%;
+  }
+
+  #div2{
+    width:20%;
+    height:70vh;
+    display:block;
+    float:left;
+  }
+
+  #div3{
+    width:40%;
+    height:25vh;
+    display:block;
+    float:left;
+  }
+
+  #div4{
+    width:40%;
+    height:25vh;
+    display:block;
+    float:left;
+  }
+
+/* ///////////SNAP/TO/4WIDE/////////// */
+  #div5{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div6{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div7{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+
+  #div8{
+    width:20%;
+    height:30vh;
+    display:block;
+    float:left;
+  }
+/* /////////END/4WIDE///////// */
+
+  #div9{
+    width:80%;
+    height:15vh;
+    display:block;
+    float:left;
+  }
+
+  #img1a{
+    content:url("http://via.placeholder.com/960x100");
+  }
+
+  #img2a{
+    content:url("http://via.placeholder.com/200x600");
+  }
+
+  #img3a{
+    content:url("http://via.placeholder.com/380x200");
+  }
+
+  #img4a{
+    content:url("http://via.placeholder.com/380x200");
+  }
+
+  #img5a{
+    content:url("http://via.placeholder.com/190x250");
+  }
+
+  #img6a{
+    content:url("http://via.placeholder.com/190x250");
+  }
+
+  #img7a{
+    content:url("http://via.placeholder.com/190x250");
+  }
+
+  #img8a{
+    content:url("http://via.placeholder.com/190x250");
+  }
+
+  #img9a{
+    content:url("http://via.placeholder.com/760x150");
+  }
+
+}
+

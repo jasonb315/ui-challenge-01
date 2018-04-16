@@ -1,0 +1,22 @@
+section{
+  background-color: whitesmoke;
+}
+
+body{
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  background-color: whitesmoke;
+  max-width: 960px;
+  min-width:480px;
+  
+}
+
+div {
+  background-color: rgb(205, 205, 205);
+  border-color:darkgrey;
+  border-width:1px;
+  border-style: solid;
+  box-sizing: border-box;
+}
